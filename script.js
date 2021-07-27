@@ -64,10 +64,10 @@ function togglePlayer() {
 
 function checkGame() {
     if(checkWinnerFor('x')) {
-        warning = 'O "x" venceu';
+        warning = 'Jogador X';
         playing = false;
     } else if(checkWinnerFor('o')) {
-        warning = 'O "o" venceu';
+        warning = 'Jogador O';
         playing = false;
     } else if(isFull()) {
         warning = 'Deu empate';
